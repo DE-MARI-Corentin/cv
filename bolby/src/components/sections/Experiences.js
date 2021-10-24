@@ -53,7 +53,7 @@ const loisirData = [
 const experienceData = [
   {
     id: 1,
-    title: "Developpeur Logiciel CERFRANCE AFGA",
+    title: "Developpeur Logiciel CERFRANCE AFGA - APPRENTISSAGE",
     years: "2019 - 2022",
     content:
       "Siege social Avignon - Chargé du développement et de la mise en production des logiciels.",

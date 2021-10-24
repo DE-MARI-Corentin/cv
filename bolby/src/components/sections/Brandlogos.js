@@ -1,57 +1,82 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
+import Pagetitle from "../elements/Pagetitle";
 
 const brandlogoData = [
   {
     id: 1,
-    image: "images/client-1.svg",
+    image: "images/csharp.svg",
   },
   {
     id: 2,
-    image: "images/client-2.svg",
+    image: "images/dot-net-core.svg",
   },
   {
     id: 3,
-    image: "images/client-3.svg",
+    image: "images/docker.svg",
   },
   {
     id: 4,
-    image: "images/client-4.svg",
+    image: "images/java.svg",
   },
   {
     id: 5,
-    image: "images/client-5.svg",
+    image: "images/angular.svg",
   },
   {
     id: 6,
-    image: "images/client-6.svg",
+    image: "images/nodejs.svg",
   },
   {
     id: 7,
-    image: "images/client-7.svg",
+    image: "images/react.svg",
   },
   {
     id: 8,
-    image: "images/client-8.svg",
+    image: "images/python.svg",
+  },
+  {
+    id: 9,
+    image: "images/gitlab.svg",
+  },
+  {
+    id: 10,
+    image: "images/android.svg",
+  },
+  {
+    id: 11,
+    image: "images/grafana.svg",
+  },
+  {
+    id: 12,
+    image: "images/kubernetes.svg",
   },
 ];
 
 function Brandlogos() {
   return (
-    <div id="branglogos">
+    <section id="branglogos">
       <div className="container">
+        <Pagetitle title="Technologies" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-3 col-6" key={brandlogo.id}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="client-name" />
+                  <img  src={brandlogo.image} alt="dev-name" style={
+                    {
+                      width:'30%',
+                      height:'30%',
+                    }
+                  }/>
                 </div>
               </div>
             </div>
           ))}
         </div>
+
       </div>
-    </div>
+    </section>
   );
 }
 

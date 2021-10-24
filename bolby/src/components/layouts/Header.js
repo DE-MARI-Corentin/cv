@@ -60,7 +60,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-user-following"></i>Infos
+                <i className="icon-user-following"></i>Profil
               </Link>
             </li>
             <li>
@@ -71,7 +71,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-briefcase"></i>Skills
+                <i className="icon-briefcase"></i>Compétences
               </Link>
             </li>
             <li>
@@ -98,13 +98,13 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
             </li>
             <li>
               <Link
-                activeClass="active"
-                to="section-blogs"
-                spy={true}
-                smooth={true}
-                duration={500}
+                  activeClass="active"
+                  to="section-loisir"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
               >
-                <i className="icon-note"></i>Portfolio
+                <i className="icon-layers"></i>Loisirs
               </Link>
             </li>
             <li>

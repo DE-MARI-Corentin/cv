@@ -24,7 +24,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <img src="images/123-modified.png" alt="Bolby" className="mb-4" />
 
           <h1 className="mb-2 mt-0">Corentin DE MARI</h1>
           <p>
@@ -32,9 +32,9 @@ function Herosection(props) {
             <Typed
               strings={[
                 "",
-                "développeur back-end",
-                "ingénieur en développement logiciel",
-                "agile",
+                "développeur full-stack.",
+                "ingénieur en développement logiciel.",
+                "agile.",
               ]}
               typeSpeed={80}
               backSpeed={40}

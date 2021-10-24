@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Portfolio from "../elements/Portfolio";
+import {logDOM} from "@testing-library/react";
 
 const filters = [
   {
@@ -10,120 +11,105 @@ const filters = [
   },
   {
     id: 2,
-    text: "creative",
+    text: "WebApp",
   },
   {
     id: 3,
-    text: "art",
+    text: "Console",
   },
   {
     id: 4,
-    text: "design",
+    text: "Android",
   },
   {
     id: 5,
-    text: "branding",
+    text: "Divers",
   },
 ];
 
 const allData = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    title: "Tretravex",
+    category: "Console",
+    image: "images/tetravex.png",
+    popupLink: [
+      "images/tetravex1.png",
+      "images/tetravex2.png",
+    ],
+    tag1:"Thread",
+    tag2:"C++",
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
-    image: "images/works/2.svg",
-    popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
-    ],
+    title: "Site CV",
+    category: "WebApp",
+    image: "images/works/6.svg",
+    popupLink: ["images/cv.png",],
+    tag1:"JSX",
+    tag2:"React",
   },
   {
     id: 3,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/3.svg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
+    title: "Spotify like",
+    category: "Android",
+    image: ["images/works/3.svg",],
+    popupLink: ["https://www.youtube.com/watch?v=8H7ylSwuw-0"],
+    tag1:"Java",
+    tag2:"C++",
   },
   {
     id: 4,
-    title: "Onboarding Motivation",
-    category: "creative",
-    image: "images/works/4.svg",
+    title: "Jeu de Pirate",
+    category: "Console",
+    image: "images/lostTresure.png",
     popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
+      "images/Classes.png",
+      "images/lostTresure.png",
     ],
+    tag1:"",
+    tag2:"Java",
   },
   {
     id: 5,
-    title: "iMac Mockup Design",
-    category: "art",
-    image: "images/works/5.svg",
-    popupLink: ["images/works/5.svg"],
+    title: "Quiz&Go",
+    category: "WebApp",
+    image: "images/quiz1.png",
+    popupLink: [
+      "images/quiz1.png",
+      "images/quiz2.png",
+    ],
+    tag1:"Angular",
+    tag2:"TS",
   },
   {
     id: 6,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
+    title: "Grafanna",
+    category: "WebApp",
+    image: "images/grafanna.png",
+    popupLink: [
+      "images/grafanna.png",
+    ],
+    tag1:"Python",
+    tag2:"Java",
   },
   {
     id: 7,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
+    title: "Bot Discord ",
+    category: "Divers",
+    image: "images/botdiscord.png",
+    popupLink: ["images/botdiscord.png",],
+    tag1:"noSQL",
+    tag2:"Node",
   },
   {
     id: 8,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 9,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
-  },
-  {
-    id: 10,
-    title: "Game Store App Concept",
-    category: "design",
-    image: "images/works/6.svg",
-    link: "https://dribbble.com",
-  },
-  {
-    id: 11,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/3.svg",
-    link: "https://pinterest.com",
-  },
-  {
-    id: 12,
-    title: "Guest App Walkthrough Screens",
-    category: "design",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
-  },
-  {
-    id: 13,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/4.svg",
-    popupLink: ["images/works/4.svg"],
+    title: "Api mongoDb",
+    category: "Divers",
+    image: "images/apiBot.png",
+    link: ["https://github.com/DE-MARI-Corentin/apiBot"],
+    tag1:"NoSQL",
+    tag2:"Node",
   },
 ];
 
@@ -146,12 +132,13 @@ function Works() {
     let tempData;
     if (e.target.textContent.toLowerCase() === filters[0].text.toLowerCase()) {
       tempData = getAllItems.filter((data) => data.id <= dataVisibleCount);
+      console.log("test" + tempData)
     } else {
       tempData = getAllItems.filter(
         (data) =>
-          data.category === e.target.textContent.toLowerCase() &&
-          data.id <= dataVisibleCount
+          data.category.toLowerCase() === e.target.textContent.toLowerCase()
       );
+      console.log("test2" + tempData)
     }
     setVisibleItems(tempData);
   };
