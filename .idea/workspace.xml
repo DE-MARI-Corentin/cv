@@ -5,40 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f49ec0-107a-4f10-9d39-b7b1b8f275c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolby/src/components/sections/loisir.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-1-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-2-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-3-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-4-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-5-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-6-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-7-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-8-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/public/images/client-8.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/elements/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/elements/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/elements/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/elements/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/layouts/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/layouts/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bolby/src/components/sections/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/sections/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/sections/Brandlogos.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/sections/Brandlogos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/sections/Experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/sections/Experiences.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/sections/Herosection.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/sections/Herosection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/components/sections/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/sections/Services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bolby/src/components/sections/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/components/sections/Works.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/pages/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/pages/Homepage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/src/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/bolby/src/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolby/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +47,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ServiceViewManager">
@@ -106,7 +75,8 @@
       <updated>1632505715838</updated>
       <workItem from="1632505722643" duration="58000" />
       <workItem from="1632505921951" duration="1442000" />
-      <workItem from="1635073486066" duration="13871000" />
+      <workItem from="1635073486066" duration="14210000" />
+      <workItem from="1635436179946" duration="453000" />
     </task>
     <servers />
   </component>
@@ -123,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

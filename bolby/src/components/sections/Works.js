@@ -106,7 +106,7 @@ const allData = [
     id: 8,
     title: "Api mongoDb",
     category: "Divers",
-    image: "images/apiBot.png",
+    image: "images/apibot.png",
     link: ["https://github.com/DE-MARI-Corentin/apiBot"],
     tag1:"NoSQL",
     tag2:"Node",

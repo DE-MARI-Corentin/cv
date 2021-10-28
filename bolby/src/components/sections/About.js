@@ -139,7 +139,7 @@ function About() {
                   ))}
                 </div>
                 <div className="mt-5 d-flex justify-content-center">
-                  <a href="https://drive.google.com/u/0/uc?id=1aMcrK2nlTl5moKtdBPHU8CQW0hInEad2&export=download" className="btn btn-default" download>
+                  <a href="https://drive.google.com/u/0/uc?id=1cFViTz00RJ6crtKXUbHTROYjMP-avR2F&export=download" className="btn btn-default" download>
                     Télécharger mon CV
                   </a>
                 </div>
