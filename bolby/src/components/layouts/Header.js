@@ -40,12 +40,12 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
       <header className={handleClasses()}>
       <div className="dropdown show">
           <a class="dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Language : <img className="icon h-75" src="/images/flagFR.png" alt="Francais" />
+            <img className="icon h-75" src="/images/flagFR.png" alt="Francais" />
           </a>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item h-50" href="/en-EN"><img className="icon h-50" src="/images/flagEN.png" alt="English" /> Anglais</a>
+          <div class="dropdown-menu langue" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item h-50" href="/en-EN"><img className="icon h-50" src="/images/flagEN.png" alt="English" /></a>
           </div>
-        </div><br/>
+        </div><br/><br/>
         <Logo logoSource={logoSource} />
         <nav>
           <ul className="vertical-menu scrollspy">

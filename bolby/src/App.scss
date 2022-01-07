@@ -1,1 +1,16 @@
 @import './sass/style.scss';
+
+.langue{
+    background: transparent;
+    border: transparent;
+    padding: 1;
+}
+
+.langue a{
+    padding: 0;
+    width: 24%;
+}
+.langue a:hover{
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.322);
+    background: transparent;
+}

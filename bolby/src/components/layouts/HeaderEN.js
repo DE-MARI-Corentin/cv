@@ -1,6 +1,8 @@
 import { Link } from "react-scroll";
 import Logo from "../elements/Logo";
 
+
+
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {
     let classes = "desktop-header-1 d-flex align-items-start flex-column";
@@ -39,12 +41,12 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
       <header className={handleClasses()}>
       <div className="dropdown show">
           <a class="dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Language : <img className="icon h-75" src="/images/flagEN.png" alt="English" />
+            <img className="icon h-75" src="/images/flagEN.png" alt="English" />
           </a>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item h-50" href="/fr-FR"><img className="icon h-50" src="/images/flagFR.png" alt="French" /> French</a>
+          <div class="dropdown-menu langue " aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item h-75" href="/fr-FR"><img className="icon h-50" src="/images/flagFR.png" alt="French" /></a>
           </div>
-        </div><br/>
+        </div><br/><br/>
         <Logo logoSource={logoSource} />
         <nav>
           <ul className="vertical-menu scrollspy">
