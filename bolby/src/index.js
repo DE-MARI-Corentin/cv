@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "animate.css/animate.min.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import 'jquery/dist/jquery.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,32 +1,7 @@
-import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import Timeline from "../elements/Timeline";
 
 const educationData = [
-  {
-    id: 1,
-    title: "Master Informatique",
-    years: "2019 - 2022",
-    content:
-      "Spécialité ILSEN(Ingénieurie Logicielle de la Société et du Numérique) Option E-commerce.",
-  },
-  {
-    id: 2,
-    title: "Licence Informatique",
-    years: "2015 - 2019",
-    content:
-      "Spécialité ILSEN(Ingénieurie Logicielle de la Société et du Numérique).",
-  },
-  {
-    id: 3,
-    title: "BACCALAUREAT Scientifique",
-    years: "2015",
-    content:
-      "Option Science de l’ingénieur.",
-  },
-];
-
-const loisirData = [
   {
     id: 1,
     title: "Master Informatique",

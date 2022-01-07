@@ -28,13 +28,13 @@ function Herosection(props) {
 
           <h1 className="mb-2 mt-0">Corentin DE MARI</h1>
           <p>
-            Je suis{" "}
+            I' m a{" "}
             <Typed
               strings={[
                 "",
-                "développeur full-stack.",
-                "ingénieur en développement logiciel.",
-                "agile.",
+                "full-stack developer.",
+                "software engineer.",
+                "SCRUM' s user.",
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -66,7 +66,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Contactez-moi
+              Hire me
             </Link>
           </div>
         </div>
@@ -79,7 +79,7 @@ function Herosection(props) {
             duration={500}
             className="mouse-wrapper"
           >
-            <span>Descendre</span>
+            <span>Scroll Down</span>
             <span className="mouse">
               <span className="wheel"></span>
             </span>

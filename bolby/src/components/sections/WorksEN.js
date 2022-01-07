@@ -22,7 +22,7 @@ const filters = [
   },
   {
     id: 5,
-    text: "Divers",
+    text: "Other",
   },
 ];
 
@@ -95,7 +95,7 @@ const allData = [
   {
     id: 7,
     title: "Bot Discord ",
-    category: "Divers",
+    category: "Other",
     image: "images/botdiscord.png",
     popupLink: ["images/botdiscord.png",],
     tag1:"noSQL",
@@ -104,7 +104,7 @@ const allData = [
   {
     id: 8,
     title: "Api mongoDb",
-    category: "Divers",
+    category: "Other",
     image: "images/apibot.png",
     link: ["https://github.com/DE-MARI-Corentin/apiBot"],
     tag1:"NoSQL",
@@ -165,7 +165,7 @@ function Works() {
   return (
     <section id="works">
       <div className="container">
-        <Pagetitle title="Travaux & Participations" />
+        <Pagetitle title="Works & Participations" />
         {/* Start Portfolio Filters */}
         <ScrollAnimation
           animateIn="fadeInUp"
@@ -211,7 +211,7 @@ function Works() {
               "No more items"
             ) : (
               <span>
-                <i className="fas fa-spinner"></i> Charger plus
+                <i className="fas fa-spinner"></i> Load more
               </span>
             )}
           </button>

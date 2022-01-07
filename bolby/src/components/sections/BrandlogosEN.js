@@ -55,7 +55,7 @@ function Brandlogos() {
   return (
     <section id="branglogos">
       <div className="container">
-        <Pagetitle title="Technologies" />
+        <Pagetitle title="Framework & Technology" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-3 col-6" key={brandlogo.id}>

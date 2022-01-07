@@ -3,10 +3,6 @@ import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
-//make years and days array
-
-
-//1900-today
 
 //calculate age
 function calculateAge(birthday){
@@ -19,37 +15,36 @@ function calculateAge(birthday){
       //convert milliseconds into years
       years = Math.floor(diff / 31556736000)
       //1 day has 86400000 milliseconds
-      //1 month has 30.4167 days
-  return `${years} ans`;
+  return `${years} years`;
 }
 
 const aboutContent = {
   name: "Corentin",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "Après 5 ans d’Etude au Centre d’Enseignement et de Recherche Informatique, je souhaiterais continuer à apprendre mais aussi à rejoindre une nouvelle équipe dans laquelle je saurais être rigoureux et ajouter une force dans mes futures tâches.",
-  languages: ["Anglais & ", "Français "],
-  dateBirth: "26-07-1997",
+    "Soon-to-graduate honors college student with MCS. Developed software since 2+years with apprenticeship. Joined a new team will be great place who I can be rigorous and add strength in my future tasks.",
+  languages: ["French native & ", "English B1 "],
+  dateBirth: "07-26-1997",
   adress: "84850 - Camaret sur Aigues",
-  licence: "Permis B + Véhicule",
+  licence: "Driving licence with car",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development logiciel C# & .NET",
+    title: "Software development with C# & .NET",
     percantage: 85,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "Base de donnée SQL & noSQL",
+    title: "Database SQL & noSQL",
     percantage: 90,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Méthodologie Agile SCRUM",
+    title: "Methodology Agil SCRUM",
     percantage: 100,
     progressColor: "#6C6CE5",
   },
@@ -58,25 +53,25 @@ const progressData = [
 const counterData = [
   {
     id: 1,
-    title: "Participations de projets",
+    title: "Project participation",
     count: 34,
     icon: "icon-event",
   },
   {
     id: 2,
-    title: "Tasses de café",
+    title: "Cup of coffee",
     count: 1208 + Math.random() * (5379 - 1208),
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Diplômes",
+    title: "Degrees",
     count: 5,
     icon: "icon-graduation",
   },
   {
     id: 4,
-    title: "Années d'expérience",
+    title: "Years of experiences",
     count: 3,
     icon: "icon-briefcase",
   },
@@ -86,7 +81,7 @@ function About() {
   return (
     <section id="about">
       <div className="container">
-        <Pagetitle title="Profil" />
+        <Pagetitle title="Profil & Carrer Objective" />
         <div className="row">
           {/*
           <div className="col-md-3">
@@ -100,12 +95,12 @@ function About() {
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
-                  <p><b>Lieu de résidence : </b>{aboutContent.adress}</p>
-                  <p><b>Date de naissance : </b>{aboutContent.dateBirth} - {calculateAge(aboutContent.dateBirth.split("-").reverse().join("-"))}</p>
-                  <p><b>Type de déplacement : </b>{aboutContent.licence}</p>
+                  <p><b>Residency place : </b>{aboutContent.adress}</p>
+                  <p><b>Date of birth : </b>{aboutContent.dateBirth} - {calculateAge(aboutContent.dateBirth)}</p>
+                  <p><b>Travel method : </b>{aboutContent.licence}</p>
                   <p>{aboutContent.content}</p>
                   <p>
-                    <b>Langues : </b>
+                    <b>Language skill : </b>
                     {aboutContent.languages.map((langue) => (
                         <span>{langue} </span>
                     ))}
@@ -129,8 +124,8 @@ function About() {
                   ))}
                 </div>
                 <div className="mt-5 d-flex justify-content-center">
-                  <a href="https://drive.google.com/u/0/uc?id=1cFViTz00RJ6crtKXUbHTROYjMP-avR2F&export=download" className="btn btn-default" download>
-                    Télécharger mon CV
+                  <a href="https://drive.google.com/u/0/uc?id=1rUzgoK1Z-Z_y-NHZjt4TAGrumxyo20HA&export=download" className="btn btn-default" download>
+                    Download my CV
                   </a>
                 </div>
               </div>

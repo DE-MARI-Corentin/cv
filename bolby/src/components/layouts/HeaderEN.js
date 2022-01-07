@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import Logo from "../elements/Logo";
 
@@ -39,11 +38,11 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
       </header>
       <header className={handleClasses()}>
       <div className="dropdown show">
-          <a class="dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Language : <img className="icon h-75" src="/images/flagFR.png" alt="Francais" />
+          <a class="dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language : <img className="icon h-75" src="/images/flagEN.png" alt="English" />
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item h-50" href="/en-EN"><img className="icon h-50" src="/images/flagEN.png" alt="English" /> Anglais</a>
+            <a class="dropdown-item h-50" href="/fr-FR"><img className="icon h-50" src="/images/flagFR.png" alt="French" /> French</a>
           </div>
         </div><br/>
         <Logo logoSource={logoSource} />
@@ -57,7 +56,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-home"></i>Accueil
+                <i className="icon-home"></i>Home
               </Link>
             </li>
             <li>
@@ -79,7 +78,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-briefcase"></i>Compétences
+                <i className="icon-briefcase"></i>Skills
               </Link>
             </li>
             <li>
@@ -90,7 +89,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-graduation"></i>Expériences
+                <i className="icon-graduation"></i>Experiences
               </Link>
             </li>
             <li>
@@ -101,7 +100,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-layers"></i>Travaux
+                <i className="icon-layers"></i>Works
               </Link>
             </li>
             <li>
@@ -112,7 +111,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                   smooth={true}
                   duration={500}
               >
-                <i className="icon-game-controller"></i>Loisirs
+                <i className="icon-game-controller"></i>Hobbies
               </Link>
             </li>
             <li>
@@ -123,7 +122,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
-                <i className="icon-bubbles"></i>Contact
+                <i className="icon-bubbles"></i>Contact me
               </Link>
             </li>
           </ul>
